@@ -4,6 +4,7 @@
 }
 body{
     background-color: #75B9BE;
+    color: green;
     display: flex;
     align-items: center;
     justify-content: center;
