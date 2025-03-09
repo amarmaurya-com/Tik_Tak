@@ -41,20 +41,56 @@ h1{
     justify-content: center;
     border: none;
     border-radius: 16px;
-    background-color: rgba(82, 82, 82, 0.12);
+    background-color: rgba(137, 12, 106, 0.12);
     font-size: 2rem;
     color:white ;
 }
-.reset{
+#button{
     margin-top: 45px;
     height: 2rem;
     width:9rem;
-    background-color:rgba(209, 12, 12, 0.404); 
+    background-color:rgba(187, 184, 41, 0.404); 
     color: white;
     font-size: 84%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     border: none;
-    border-radius: 11px;
+    border-radius: 25px;
     border-bottom: 2px solid black;
+    box-shadow: -3px 5px 5px rgba(6, 9, 25, 0.231);
+}
+.msg-container{
+    background-color:rgba(44, 46, 42, 0.831);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 30rem;
+    width:30rem;
+    border-radius: 20px;
+}
+.msg-container p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    color: rgb(177, 187, 182);
+    border-bottom: 2px solid rgb(26, 123, 172);
+    border-radius: 8px;
+}
+#new-btn{
+    margin-top: 45px;
+    height: 2rem;
+    width:9rem;
+    background-color:rgba(187, 184, 41, 0.404); 
+    color: white;
+    font-size: 84%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    border-bottom: 2px solid black;
+    box-shadow: -3px 5px 5px rgba(6, 9, 25, 0.231);
+}
+.hide{
+    display: none;
 }
